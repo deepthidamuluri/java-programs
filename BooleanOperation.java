@@ -1,18 +1,33 @@
-import java.util.*;
-class BooleanOperation{
+//JFM1T3_Assignment5:
+/*
+1.Write a program to initialize a boolean variable and print it's opposite value on console.
 
-//main method
-public static void main(String args[]){
-   Scanner sc=new Scanner(System.in);
-  System.out.println("Enter x as boolean value(true/false): ");
-  boolean x=sc.nextBoolean();
-  System.out.println("Enter y as boolean value(true/false): ");
-  boolean y=sc.nextBoolean();
-  System.out.println("x&&y"+(x&&y));
-  System.out.println("x||y"+(x||y));
-  System.out.println("!x"+(!x));
-  System.out.println("!y"+(!y));
-  
-  }
+  Sample Input:true
+
+  Expected Output:false
+
+*/
+public class BooleanOperation {
+
+//Define main method
+public static void main(String args[])
+{
+
+//Declare a variable and initialize it as true or false 
+boolean user=true;
+if(!user)
+{
+  System.out.println("true");
 }
+else
+{
+//Print the Result using not operator 
+System.out.println("false");
+
+}
+}
+}
+//Declare a variable and initialize it as true or false 
+
+//Print the Result using not operator 
 
